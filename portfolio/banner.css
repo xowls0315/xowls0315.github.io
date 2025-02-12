@@ -1,0 +1,13 @@
+.banner {
+  width: 100vw;
+}
+.banner > .banner__imgbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.banner > .banner__imgbox > img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}

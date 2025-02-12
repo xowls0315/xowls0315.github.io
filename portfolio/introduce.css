@@ -1,0 +1,32 @@
+.introduce {
+  width: 100vw;
+}
+.introduce > article {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduce > article > .introduce__logo {
+  font-size: 45px;
+  color: #957468;
+}
+.introduce > article > .introduce__my {
+  width: 100%;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.introduce > article > .introduce__my > strong {
+  font-size: 30px;
+  color: black;
+}
+.introduce > article > .introduce__my > strong > span {
+  font-size: 25px;
+  font-weight: 200;
+  color: black;
+}

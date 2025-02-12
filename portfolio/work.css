@@ -1,0 +1,94 @@
+.work {
+  width: 100vw;
+}
+.work > article {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work > article > .work__logo {
+  font-size: 45px;
+  color: #957468;
+}
+.work > article > .work__grid {
+  width: 100%;
+  height: 30vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin: 100px 0px;
+}
+.work > article > .work__grid > .card {
+  width: 100%;
+  height: 50%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(119, 87, 0, 0.3) 0px 0px 0px 3px;
+}
+.work > article > .work__grid > .card > img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+}
+.work > article > .work__grid > .card > i {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #957468;
+}
+.work > article > .work__grid > .card > .hover-card {
+  background-color: #957468;
+  position: absolute;
+  top: 0;
+  padding-inline: 10px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.work > article > .work__grid > .card > .hover-card > .card__title {
+  font-size: 25px;
+  margin: 20px 10px;
+}
+.work > article > .work__grid > .card > .hover-card > .card__info {
+  font-size: 18px;
+  margin: 20px 10px;
+}
+.card:hover .hover-card {
+  -webkit-animation: slide-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
