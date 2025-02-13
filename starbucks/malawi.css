@@ -1,0 +1,45 @@
+.malawi {
+  width: 100vw;
+  height: 40vh;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(128, 114, 126, 1) 100%
+  );
+}
+.malawi > article {
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.malawi > article > .contents__imgbox {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.malawi > article > .contents__imgbox > img {
+  width: 100%;
+  object-fit: cover;
+}
+.malawi > article > .contents__button {
+  width: 100%;
+}
+.malawi > article > .contents__button > button {
+  background-color: transparent;
+  color: #ab6c4e;
+  border: 1px solid #ab6c4e;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+.malawi > article > .contents__button > button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #ab6c4e;
+  text-decoration: underline;
+}

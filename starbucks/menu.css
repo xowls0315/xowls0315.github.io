@@ -1,0 +1,75 @@
+.menu {
+  width: 100vw;
+  height: 80vh;
+  background-image: linear-gradient(to left, #bdbbbe 0%, #9d9ea3 100%),
+    radial-gradient(
+      88% 271%,
+      rgba(255, 255, 255, 0.25) 0%,
+      rgba(254, 254, 254, 0.25) 1%,
+      rgba(0, 0, 0, 0.712) 100%
+    ),
+    radial-gradient(
+      50% 100%,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(0, 0, 0, 0.712) 100%
+    );
+  background-blend-mode: normal, lighten, soft-light;
+}
+.menu > article {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu > article > .contents__letter {
+  width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+}
+.menu > article > .contents__letter > h1 {
+  font-size: 100px;
+}
+.menu > article > .contents__letter > h2 {
+  font-size: 80px;
+}
+.menu > article > .contents__letter > h3 {
+  font-size: 47px;
+  margin-bottom: 30px;
+}
+.menu > article > .contents__letter > h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.menu > article > .contents__letter > span {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.menu > article > .contents__letter > button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 30px;
+  transition: all 0.5s;
+}
+.menu > article > .contents__letter > button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+}
+
+.menu > article > .contents__imgbox {
+  width: 60%;
+  margin-left: 50px;
+}
+.menu > article > .contents__imgbox > img {
+  object-fit: cover;
+}

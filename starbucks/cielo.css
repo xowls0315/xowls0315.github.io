@@ -1,5 +1,63 @@
 .cielo {
   width: 100vw;
-  height: 50vh;
+  height: 60vh;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 100px 0px;
   margin-top: 100px;
+}
+.cielo > article {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cielo > article > .contents__imgbox {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.cielo > article > .contents__imgbox > img {
+  object-fit: cover;
+}
+
+.cielo > article > .contents__letter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cielo > article > .contents__letter > strong {
+  color: #665552;
+  font-size: 16px;
+}
+.cielo > article > .contents__letter > h2 {
+  font-size: 30px;
+  padding: 10px 0px;
+}
+.cielo > article > .contents__letter > span {
+  color: #665552;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.cielo > article > .contents__letter > button {
+  margin-top: 40px;
+  width: fit-content;
+  background-color: transparent;
+  padding: 8px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+.cielo > article > .contents__letter > button:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+  background-color: black;
 }
