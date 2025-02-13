@@ -1,0 +1,69 @@
+.werun {
+  width: 100vw;
+  height: 70vh;
+}
+.werun__container {
+  width: 100%;
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.werun__contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.werun__contents > h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #444444;
+}
+.werun__cardlist {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+}
+.card {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.5s;
+}
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.imageBox {
+  width: 100%;
+  height: 50%;
+}
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.concept {
+  font-family: "SF_HambakSnow";
+  font-size: 20px;
+  font-weight: 600;
+  color: #444444;
+}
+@media screen and (max-width: 768px) {
+  .werun__contents {
+    height: 100%;
+    padding-top: 100px;
+  }
+  .werun__cardlist {
+    flex-direction: column;
+  }
+}

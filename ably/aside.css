@@ -1,0 +1,30 @@
+aside {
+  position: fixed;
+  right: 50px;
+  bottom: 70px;
+}
+aside > .recruit {
+  padding: 15px 15px;
+  background-color: #ff5160;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.recruit:hover {
+  background-color: #db3b57;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  aside {
+    right: 0px;
+    bottom: 0px;
+    width: 90vw;
+  }
+  aside > .recruit {
+    /* width: 80vw; */
+    width: 90%;
+  }
+}

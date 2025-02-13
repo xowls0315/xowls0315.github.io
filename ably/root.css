@@ -1,0 +1,7 @@
+:root {
+  --font-size-sm: 0.875rem; /* 약 14px */
+  --font-size-md: 1rem; /* 16px(기본) */
+  --font-size-lg: 1.25rem; /* 20px */
+  --font-size-xl: 1.5rem; /* 24px */
+  --font-size-xxl: 2rem; /* 32px */
+}

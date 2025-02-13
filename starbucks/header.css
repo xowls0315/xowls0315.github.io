@@ -1,0 +1,31 @@
+header {
+  background-color: #f6f5ef;
+}
+header > nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header > nav > .header__logo > img {
+  object-fit: cover;
+  width: 110%;
+}
+header > nav > .header__menu {
+  display: flex;
+  gap: 40px;
+}
+header > nav > .header__menu > li {
+  text-align: center;
+}
+header > nav > .header__menu > li:hover {
+  cursor: pointer;
+  background-color: #2c2a29;
+  color: #669900;
+  text-decoration: underline;
+}

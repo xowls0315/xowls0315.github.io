@@ -1,0 +1,200 @@
+.reward {
+  width: 100vw;
+  height: 30vh;
+}
+.reward > article {
+  width: 100%;
+  height: 100%;
+}
+.reward > article > .reward__notice {
+  display: flex;
+  align-items: center;
+  height: 20%;
+}
+.reward > article > .reward__notice > .notice__notice {
+  width: 50%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.reward > article > .reward__notice > .notice__promotion {
+  width: 50%;
+  height: 100%;
+  color: black;
+  background-color: #f6f5ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.reward > article > .reward__notice > .notice__promotion:hover {
+  cursor: pointer;
+}
+.reward > article > .reward__reward {
+  background-color: #1e3932;
+  display: flex;
+  width: 100%;
+  padding: 40px 0px;
+}
+.reward > article > .reward__reward > .reward__reward__imgbox {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reward > article > .reward__reward > .reward__reward__imgbox > img {
+  object-fit: cover;
+}
+.reward > article > .reward__reward > .reward__letter {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.reward > article > .reward__reward > .reward__letter > .reward__login {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__login
+  > .reward__reward__login {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__login
+  > .reward__reward__login
+  > span {
+  font-size: 16px;
+  color: white;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__login
+  > .reward__reward__login
+  > .span1 {
+  font-size: 22px;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__login
+  > .reward__login__button {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__login
+  > .reward__login__button
+  > .button1 {
+  color: white;
+  background-color: #00704a;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__login
+  > .reward__login__button
+  > .button2 {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__login
+  > .reward__login__button
+  > button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.reward > article > .reward__reward > .reward__letter > .reward__gift {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  margin-top: 50px;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__gift
+  > .gift__letter {
+  width: 70%;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__gift
+  > .gift__letter
+  > span {
+  color: white;
+  font-size: 12px;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__gift
+  > .gift__button {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__gift
+  > .gift__button
+  > button {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-right: 40px;
+}
+.reward
+  > article
+  > .reward__reward
+  > .reward__letter
+  > .reward__gift
+  > .gift__button
+  > button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

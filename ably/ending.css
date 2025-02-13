@@ -1,0 +1,46 @@
+.ending > .contents {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+.ending > .contents > .album {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 100px;
+}
+.ending > .contents > .album > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.ending > .contents > .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending > .contents > .text > h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.ending > .contents > .text > span {
+  font-size: 22px;
+  color: #757575;
+}
+
+@media screen and (max-width: 1000px) {
+  .ending > .contents {
+    max-width: 340px;
+  }
+  .ending > .contents > .album {
+    height: 240px;
+  }
+  .ending > .contents > .text > h2 {
+    font-size: 25px;
+  }
+  .ending > .contents > .text > span {
+    font-size: 18px;
+  }
+}

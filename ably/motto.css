@@ -1,0 +1,44 @@
+.motto {
+  width: 100vw;
+  height: 50vh;
+  background-color: ghostwhite;
+}
+.motto > .contents {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+.motto > .contents > h3 {
+  font-size: 30px;
+  font-family: "Jua", serif;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.5;
+}
+.commerce {
+  margin-top: 30px;
+}
+.next {
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .motto {
+    background-position: center;
+    height: 100%;
+  }
+  .motto > .contents {
+    max-width: 340px;
+  }
+  .motto > .contents > h3 {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+}
