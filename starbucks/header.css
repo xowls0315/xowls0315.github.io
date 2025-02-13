@@ -22,6 +22,7 @@ header > nav > .header__menu {
 }
 header > nav > .header__menu > li {
   text-align: center;
+  padding: 10px 5px;
 }
 header > nav > .header__menu > li:hover {
   cursor: pointer;
